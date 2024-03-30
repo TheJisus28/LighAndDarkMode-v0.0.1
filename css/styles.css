@@ -1,0 +1,38 @@
+* {
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.btn {
+  box-sizing: initial;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid;
+  font-size: 1.2rem;
+  font-style: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--light {
+  color: #000;
+  background-color: #fff;
+}
+
+.btn--dark {
+  color: white;
+  background-color: #000;
+  margin-left: 5vw;
+}
