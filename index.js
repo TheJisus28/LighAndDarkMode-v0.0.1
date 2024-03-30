@@ -7,14 +7,14 @@ const btnLight = document.querySelector("#btn-light");
 const btnDark = document.querySelector("#btn-dark");
 
 btnLight.addEventListener("click", () => {
-  cambiarColor(COLORS.light);
+  changeColor(COLORS.light);
 });
 
 btnDark.addEventListener("click", () => {
-  cambiarColor(COLORS.dark);
+  changeColor(COLORS.dark);
 });
 
-function cambiarColor(color) {
+function changeColor(color) {
   document.body.style.backgroundColor = color;
   document.body.firstElementChild.style.backgroundColor = color;
 }
