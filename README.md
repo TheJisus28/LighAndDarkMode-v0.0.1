@@ -1,5 +1,5 @@
 # LighAndDarkMode-v0.0.1
 
-Light and Darck mode with html, css and javascript
+Basic light and dark mode with HTML, CSS, and Javascript
 
 @author: TheJisus28
