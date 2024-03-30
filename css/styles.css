@@ -8,7 +8,6 @@ body {
 }
 
 .btn {
-  box-sizing: initial;
   width: 200px;
   height: 50px;
   border-radius: 8px;
